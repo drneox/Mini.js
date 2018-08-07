@@ -1,7 +1,6 @@
 /**
  * Mini.js
- * Mini.js is a little and simple example of library for http(s) requests
- * -- Management
+ * Mini.js is a little and simple example of library for http(s) requests.
  *
  * @license The Unlicense, http://unlicense.org/
  * @version 0.1
@@ -17,7 +16,7 @@ class Mini{
     this.webservice = webservice;
     this.token = token;
   }
-  client(method, endPoint) {
+  client(method, endPoint, data=null) {
     self = this;
     return new Promise(function (resolve, reject) {
         var mini = new XMLHttpRequest();
