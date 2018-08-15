@@ -36,7 +36,7 @@ class Mini{
         mini.onerror = function(){
           reject({
             status: this.status,
-            statusText: xhr.statusText
+            statusText: this.statusText
           });
         }
         mini.send();
