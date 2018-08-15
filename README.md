@@ -1,5 +1,5 @@
 # Mini.js
- * Mini.js is a little and simple example of library for http(s) requests.
+ * Mini.js is a little and simple example of library for http(s) requests with promises.
  
  
  ## Example to Use:
